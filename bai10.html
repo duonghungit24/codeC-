@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h3>jscript</h3>
+<p id ="hehe"></p>
+<script type="text/javascript">
+	function tong(a,b)
+	{
+		var x = a + b;
+		return x ;
+	}
+	function giaithua(n)
+	{
+		var gt = 1 ;
+		for (var i =1; i<=n ; i++) {
+			gt*=i;
+		}
+		return gt ;
+	}
+	function say(message,name)
+	{
+		var msg= message + ' ' + name + '!' ;
+		return msg ;
+	}
+	var name1="duong hung ";
+	var message1="hello";
+	document.write(giaithua(4));
+    document.getElementById("hehe").innerHTML= say(message1,name1) ;
+  //  document.getElementById("hehe").innerHTML= tong(5,6) ;
+</script>
+
+</body>
+</html>
